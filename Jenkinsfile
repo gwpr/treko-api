@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker  {
-      image "node:alpine-edge"
+      image "node:edge-alpine"
       args "--network=skynet"
     }
   }
